@@ -5,7 +5,7 @@
  (wrapped false)
  (js_of_ocaml
   (javascript_files ReactDOMTestUtils.js))
- (libraries js_of_ocaml gen_js_api))
+ (libraries js_of_ocaml gen_js_api ojs))
 
 (rule
  (targets reactDOMTestUtils.ml)
